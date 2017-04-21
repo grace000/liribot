@@ -78,7 +78,7 @@ function fetchTweets(){
 
   
   var parameters = {
-    screen_name: 'multishifties',
+    screen_name: 'tumericti',
     count: 20
   };
   client.get('statuses/user_timeline', parameters, function(error, tweets, response){
@@ -198,7 +198,7 @@ function fetchTweets(){
   });
 
   var parameters = {
-    screen_name: 'tchitsnathan',
+    screen_name: 'telmore',
     count: 20
   };
 
